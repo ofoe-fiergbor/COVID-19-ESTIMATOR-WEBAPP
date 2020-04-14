@@ -115,7 +115,8 @@ header>h1 {
   -webkit-box-shadow: 3px 6px 26px -10px rgba(0, 0, 0, 0.44);
   -moz-box-shadow: 3px 6px 26px -10px rgba(0, 0, 0, 0.44);
   box-shadow: 3px 6px 26px -10px rgba(0, 0, 0, 0.44);
-
+  width:80%;
+  margin-left: 10%;
 
 }
 .ctn{
@@ -130,4 +131,7 @@ header>h1 {
   width: 100%;
   display:flex;
   justify-content: center;
+}
+.tbody{
+  text-align: center;
 }

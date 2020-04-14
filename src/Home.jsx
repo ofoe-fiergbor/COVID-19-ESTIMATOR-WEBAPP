@@ -64,7 +64,7 @@ export class Home extends Component {
                                 <th>Avg Daily Income Population</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody className='tbody'>
                             <tr>
                                 <td>{formatter.format(data.population)}</td>
                                 <td>{data.timeToElapse}</td>
@@ -175,8 +175,8 @@ export class Home extends Component {
                     </div>
                 </div>
                 <div>
-                    {/* {result} */}
-                    {(data.population && data.timeToElapse && data.reportedCases && data.totalHospitalBeds && data.periodType) ? result : null}
+                    {result}
+                    {/* {(data.population && data.timeToElapse && data.reportedCases && data.totalHospitalBeds && data.periodType) ? result : null} */}
                 </div>
             </div>
         )
