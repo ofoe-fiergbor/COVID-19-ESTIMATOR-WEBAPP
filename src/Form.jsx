@@ -31,34 +31,34 @@ export class Form extends Component {
                                 <div className="form-group">
                                     <label>Population</label>
                                     <input type="number" className="form-control" placeholder="Population"
-                                        name='population' required data-population />
+                                        name='population' required data-population='true' />
                                 </div>
                             </div>
                             <div className="col-md-4">
                                 <div className="form-group">
                                     <label>Time To Elapse</label>
                                     <input type="number" className="form-control" placeholder="Time to Elapse"
-                                        name='timeToElapse' required data-time-to-elapse />
+                                        name='timeToElapse' required data-time-to-elapse='true' />
                                 </div>
                             </div>
                             <div className="col-md-4">
                                 <div className="form-group">
                                     <label>Reported Cases</label>
                                     <input type="number" className="form-control" placeholder="Reported Cases"
-                                        name='reportedCases' required data-reported-cases />
+                                        name='reportedCases' required data-reported-cases='true' />
                                 </div>
                             </div>
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label>Total Hospital Beds</label>
                                     <input type="number" className="form-control" placeholder="Total Hospital Beds"
-                                        name='totalHospitalBeds' required data-total-hospital-beds />
+                                        name='totalHospitalBeds' required data-total-hospital-beds='true' />
                                 </div>
                             </div>
                             <div className="col-md-6">
                                 <div className="form-group">
                                     <label>Period Type</label>
-                                    <select className="form-control" name='periodType' required data-period-type>
+                                    <select className="form-control" name='periodType' required data-period-type='true'>
                                         <option value="days">Days</option>
                                         <option value="weeks">Weeks</option>
                                         <option value="months">Months</option>
@@ -87,7 +87,7 @@ export class Form extends Component {
                                 </div>
                             </div>
                             <div className="btnCTN">
-                                <button type="submit" className="btn btn-default btnC" data-goestimate>Get Estimate</button>
+                                <button type="submit" className="btn btn-default btnC" data-go-estimate='true'>Get Estimate</button>
                             </div>
                         </div>
                     </form>
