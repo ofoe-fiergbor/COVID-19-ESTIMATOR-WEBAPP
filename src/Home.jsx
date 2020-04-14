@@ -175,8 +175,8 @@ export class Home extends Component {
                     </div>
                 </div>
                 <div>
-                    {result}
-                    {/* {(data.population && data.timeToElapse && data.reportedCases && data.totalHospitalBeds && data.periodType) ? result : null} */}
+                    {/* {result} */}
+                    {(data.population && data.timeToElapse && data.reportedCases && data.totalHospitalBeds && data.periodType) ? result : null}
                 </div>
             </div>
         )
