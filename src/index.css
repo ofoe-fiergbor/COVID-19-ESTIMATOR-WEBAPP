@@ -8,8 +8,6 @@ body {
 }
 
 header {
-  /* display: flex; */
-  /* justify-content: space-between; */
   min-height: 10vh;
   width: 100%;
   text-align: center;
@@ -92,11 +90,9 @@ header>h1 {
 }
 .left{
   background-color: rgba(11, 11, 97, 0.521);
-  /* margin-right: 5em; */
 }
 .right{
   background-color: rgba(114, 18, 18, 0.521);
-  /* margin-left: 5em; */
 }
 .right, .left{
  height: 27em;
