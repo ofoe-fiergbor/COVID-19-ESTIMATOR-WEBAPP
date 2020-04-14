@@ -70,7 +70,7 @@ export class Home extends Component {
                                 <td>{data.timeToElapse}</td>
                                 <td>{formatter.format(data.reportedCases)}</td>
                                 <td>{formatter.format(data.totalHospitalBeds)}</td>
-                                <td>{formatter.format(data.periodType)}</td>
+                                <td>{data.periodType}</td>
                                 <td>{data.regionName}</td>
                                 <td>{data.avgDailyIncomeInUSD}</td>
                                 <td>{data.avgDailyIncomePopulation}</td>

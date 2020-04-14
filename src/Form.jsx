@@ -15,6 +15,7 @@ export class Form extends Component {
             regionName: e.target.elements.regionName.value,
             avgDailyIncomePopulation: e.target.elements.avgDailyIncomePopulation.value
         }
+        console.log(data);
         this.props.estimateImpact(data)
         this.props.history.push('/')
     }
